@@ -10,11 +10,27 @@ public class Terceirizado {
         this.empresa = empresa;
     }
 
+    public String getEmpresa() {
+        return empresa;
+    }
+
     public void setEmpresa(String empresa) {
         this.empresa = empresa;
     }
 
-    public String getEmpresa() {
-        return empresa;
+    public String getNome() {
+        return dadosPessoais.getNome();
+    }
+
+    public String getCpf() {
+        return dadosPessoais.getCpf();
+    }
+
+    public Cargo getCargo() {
+        return dadosPessoais.getCargo();
+    }
+
+    public BigDecimal getSalario() {
+        return dadosPessoais.getSalario();
     }
 }
